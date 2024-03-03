@@ -7,9 +7,15 @@
 @Date    ：2023/9/10 23:38 
 '''
 
-class OerderManager:
-    def __init__(self, shopData):
-        self.shopData = shopData
+import Model.AlibabaShop
+import Model.Order
+
+class OrderManager:
+    def __init__(self):
+        self.shopList = []
+
+    # 获取订单列表
+    def 
 
 
 

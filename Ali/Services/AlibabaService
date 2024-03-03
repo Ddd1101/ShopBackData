@@ -1,0 +1,13 @@
+from enum import Enum
+
+base_url = 'https://gw.open.1688.com/openapi/'
+
+request_type = {
+    'trade': "param2/1/com.alibaba.trade/",
+    'delivery': 'param2/1/com.alibaba.logistics/'
+}
+
+## shop type
+SHOPTYPE_ALI_CHILD_CLOTH = 1
+SHOPTYPE_ALI_ACCESSOR = 2
+

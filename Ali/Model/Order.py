@@ -2,16 +2,13 @@
 # -*- coding: UTF-8 -*-
 '''
 @Project ：ShopTools 
-@File    ：Shop.py
+@File    ：FactoryUtil.py
 @Author  ：Ddd
-@Date    ：2023/9/10 23:39 
+@Date    ：2024/03/04 0:38 
 '''
-
-
-class Shop:
+class Order:
     def __init__(self, shopName, appKey, appSecret, accessToken):
         self.shopName = shopName
         self.appKey = appKey
         self.appSecret = appSecret
         self.accessToken = accessToken
-
